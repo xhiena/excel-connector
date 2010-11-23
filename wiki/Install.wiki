@@ -1,0 +1,20 @@
+#summary steps to get the force.com excel connector installed
+
+= Install Steps =
+
+== Install Force.com Office Toolkit ==
+  # install Office Toolkit from developer.force.com or the featured downloads on this page
+  
+== Install Excel Connector XLA ==
+  The sforce_connect.xla is an Add-In and not intended to be opened directly by clicking on the XLA file.
+
+To Install the XLA file into Excel:
+  # Launch Excel
+  # Click on the Tools menu bar
+  # Click on -> Add-Ins...
+  # Click on the Browse button, locate the Add-In file from the directory where you unpacked the ZIP file
+  # select the add-in and click OK to load it.
+
+When the Add-In is loaded you may see a message about Macro Security, you must have a security setting which will allow you to run Macros to access the functionality in the Force.com Excel Connector.
+
+If the Connector menu bar appears, then the install is complete and you are ready to access the Force.com API
