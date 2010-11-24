@@ -1,4 +1,5 @@
 #summary Query data from Force.com into your worksheet
+#labels Featured
 = Query Menu =
 
 == Table Layout ==
