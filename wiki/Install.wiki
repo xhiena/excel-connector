@@ -1,4 +1,5 @@
 #summary steps to get the force.com excel connector installed
+#labels Featured
 
 == Excel Connector Configuration ==
 
