@@ -39,30 +39,44 @@ QuarterNum(date-value)</pre>
 <pre>
 NextQuarter(date-value)</pre>
  returns the first day of the next quarter (e.g. 1/1/2005 for Nov 15th 04)
+
 ----
 <pre>
 fixidcol() </pre>
  if assigned to a macro, will fix all the ids (see FixID, above) for an entire column
+
 ----
 <pre>soql_table(tablename, querystring)</pre> 
  Tricky: returns an ID if the query returns one hit.  The querystring must be in the sytax of the SOQL Where clause.
 Example: 
-</p><pre>soql_table("Contact","FirstName = 'Scot' and LastName = 'Stoney' ")</pre>
+<pre>soql_table("Contact","FirstName = 'Scot' and LastName = 'Stoney' ")</pre>
 
-<pre><hr>
-sflookup(tablename, name)</pre><p class="pIndented1"> returns the ID for the table based on a search value; it matches most fields
-</p><pre><hr>
-sfemail(email, Optional findfirst)</pre><p class="pIndented1"> returns the Contact ID based on a search for the email address. 
+----
+
+<pre>
+sflookup(tablename, name)</pre>
+ returns the ID for the table based on a search value; it matches most fields
+----
+
+<pre>
+sfemail(email, Optional findfirst)</pre>
+ returns the Contact ID based on a search for the email address. 
    If a second argument is specified, it will return the first match even if more than 1 are found
-</p><pre><hr>
-sfcontact(firstname, Optional lastname) </pre><p class="pIndented1">a short-cut to sflookup. It is the equivalent of:
+
+----
+<pre>
+sfcontact(firstname, Optional lastname) </pre>
+ a short-cut to sflookup. It is the equivalent of:
       sflookup("Contact", firstname + " " + lastname) with some argument checking
 
-</p><pre><hr>
+----
+
+<pre>
 sfaccount(accountname) </pre> <p class="pIndented1">a short-cut to sflookup. It is the equivalent of:
       sflookup("Account", accountname) with the removal of some common suffixes such as "Corp".
 
-</p><p class="pBody">
+----
+===Build your own ===
 If you want to build more of these yourself, you'll probably want to look at how each of these calls sflookup_w and the values which you can pass to the salesforce.search function. 
 
 
