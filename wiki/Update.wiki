@@ -1,4 +1,5 @@
 #summary Modify Force.com data from Excel worksheet
+#labels Featured
 
 = Update Menu =
 
