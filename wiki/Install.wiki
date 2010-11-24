@@ -1,12 +1,14 @@
 #summary steps to get the force.com excel connector installed
 
-= Install Steps =
+== Excel Connector Configuration ==
+
+  The force.com excel connector relies on the Office Toolkit v4.0 COM object. This is provided by Salesforce.com to communicate with the Force.com API via SOAP at the API level 16.0.   Therefore, you must ensure that you have the Office Toolkit configured on your system before the VBA code in the excel connector can perform it's magic.
 
 == Install Force.com Office Toolkit ==
-  # install Office Toolkit from developer.force.com or the featured downloads on this page
-  
+  # install Office Toolkit from developer.force.com or the [http://code.google.com/p/excel-connector/downloads/detail?name=SForce_Office_Toolkit_MSI.zip&can=2&q= featured downloads] on this page
+ 
 == Install Excel Connector XLA ==
-  The sforce_connect.xla is an Add-In and not intended to be opened directly by clicking on the XLA file.
+  The sforce_connect.xla is an Excel Add-In and not intended to be opened directly by clicking on the XLA file.
 
 To Install the XLA file into Excel:
   # Launch Excel
@@ -15,6 +17,8 @@ To Install the XLA file into Excel:
   # Click on the Browse button, locate the Add-In file from the directory where you unpacked the ZIP file
   # select the add-in and click OK to load it.
 
-When the Add-In is loaded you may see a message about Macro Security, you must have a security setting which will allow you to run Macros to access the functionality in the Force.com Excel Connector.
+== Macro Security ==
+  When the Add-In is loaded you may see a message about Macro Security, you must have a security setting which will allow you to run Macros to access the functionality in the Force.com Excel Connector.
 
-If the Connector menu bar appears, then the install is complete and you are ready to access the Force.com API
+===Success===
+  When the Connector menu bar appears, then the install is complete and you are ready to access Login and the Force.com API.  Use your normal login and password.  You may also need your security token.
