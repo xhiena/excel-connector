@@ -32,5 +32,5 @@
 
 
 === Changes ===
-ee_1602  -- removes a dll dependency for win7 users ( i think)
-pe_winter11 - profesional edition update to latest office toolkit    
+|| ee_1602 ||  removes a dll dependency for win7 users ( i think) ||
+|| pe_winter11 ||  profesional edition update to latest office toolkit    ||
