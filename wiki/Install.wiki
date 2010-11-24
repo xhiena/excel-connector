@@ -29,3 +29,8 @@
 
 ===Success===
   When the Connector menu bar appears, then the install is complete and you are ready to access Login and the Force.com API.  Use your normal login and password.  You may also need your security token.
+
+
+=== Changes ===
+ee_1602  -- removes a dll dependency for win7 users ( i think)
+pe_winter11 - profesional edition update to latest office toolkit    
