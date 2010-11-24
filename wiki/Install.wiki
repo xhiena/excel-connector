@@ -20,7 +20,12 @@
   # select the add-in and click OK to load it.
 
 == Macro Security ==
-  When the Add-In is loaded you may see a message about Macro Security, you must have a security setting which will allow you to run Macros to access the functionality in the Force.com Excel Connector.
+  When the Add-In is loaded you may see a message about Macro Security, you must have a security setting which will allow you to run Macros to access the functionality in the Force.com Excel Connector.  Note: the Add-In is not a signed macro file, so your may need to adjust your security settings to Medium or Low, unless you sign the file yourself. to check your settings click on the following links in Excel
+
+  Tools --> Macro --> Security Level
+
+  Detailed instructions for setting security level may be found in the Microsoft Office help documentation
+
 
 ===Success===
   When the Connector menu bar appears, then the install is complete and you are ready to access Login and the Force.com API.  Use your normal login and password.  You may also need your security token.
