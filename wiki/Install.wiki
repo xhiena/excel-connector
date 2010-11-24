@@ -12,9 +12,7 @@
   # install Office Toolkit from developer.force.com or the [http://code.google.com/p/excel-connector/downloads/detail?name=SForce_Office_Toolkit_MSI.zip&can=2&q= featured downloads] on this page
  
 == Install Excel Connector XLA ==
-  The sforce_connect.xla is an Excel Add-In and not intended to be opened directly by clicking on the XLA file.
-
-To Install the XLA file into Excel:
+  The sforce_connect.xla is an Excel Add-In and *not intended to be opened directly* by clicking on the XLA file.  To Install the XLA file into Excel:
   # Launch Excel
   # Click on the Tools menu bar
   # Click on -> Add-Ins...
