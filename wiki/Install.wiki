@@ -31,7 +31,12 @@
   When the Connector menu bar appears, then the install is complete and you are ready to access Login and the Force.com API.  Use your normal login and password.  You may also need your security token.
 
 === Why no installer===
-  I'd rather work on features.
+I never built an installer, but check out this solution by Acumen.
+
+The Excel Connector Quickinstaller, developed by Acumen Solutions, is available at  http://code.google.com/p/excel-connector-quickinstaller
+
+ 
+
 
 
 === Changes ===
